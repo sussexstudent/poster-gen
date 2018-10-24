@@ -49,17 +49,6 @@ else:
 
     bg_color = input('Background Color: Yellow, Red, Blue, Green or Pink:')
 
-    # if bg_color.lower() == 'yellow':
-    #     poster_color = yellow
-    # if bg_color.lower() == 'red':
-    #     poster_color = red
-    # if bg_color.lower() == 'blue':
-    #     poster_color = blue
-    # if bg_color.lower() == 'green':
-    #     poster_color = green
-    # if bg_color.lower() == 'pink':
-    #     poster_color = pink
-
     try:
         poster_color = theme_map[bg_color.lower()]
     except KeyError:
